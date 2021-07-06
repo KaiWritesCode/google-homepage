@@ -1,0 +1,37 @@
+
+
+#calvin { 
+    width: 50px;
+    height: 40px;
+    border-color: grey;
+    border-radius: 2em;
+}
+
+
+
+#myImage {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10em;
+}
+
+#searchButtons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.5em;
+}
+
+#last {
+    display: flex;
+    flex-grow: 4rem;
+    bottom: 0;
+    position: absolute;
+      
+}
+
+.footer1{
+    display: flex;
+    flex-grow: 4rem;
+}

@@ -13,24 +13,35 @@
 </head>
 
 <body>
-    <header>
-        <span> About Store</span>
-        <span>Gmail Images</span>
-        <span class="material-icons">
-            apps
-        </span>
 
-        <img src=" https://centralpineneedle.files.wordpress.com/2019/05/1089707_111815-ap-calvin-and-hobbes.jpg?w=1300&h=732&crop=1"
-            alt="">
-    </header>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand"><span class="px-3">About</span><span class="px-3">Store</span>
+                <div class="d-flex flex-end">
+                    Gmail</span> <span class="px-3">Images</span>
+                    <span class="material-icons px-3">
+                        apps
+                    </span>
+                    <img class="calvin" id="calvin"
+                        src=" https://centralpineneedle.files.wordpress.com/2019/05/1089707_111815-ap-calvin-and-hobbes.jpg?w=1300&h=732&crop=1"
+                        alt="">
+            </a>
+        </div>
+        </div>
+    </nav>
 
 
 
-    <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
 
 
-    <form class="container-fluid">
-        <div class="input-group">
+
+
+    <div id="myImage">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+
+    <form class="mt-2 container-fluid d-flex justify-content-center">
+        <div class="input-group" style="width: 600px;">
             <span class="input-group-text" id="basic-addon1"><span class="material-icons">search</span></span>
             <input type="text" class="form-control" placeholder="Search" aria-label="search"
                 aria-describedby="basic-addon1">
@@ -40,29 +51,33 @@
         </div>
     </form>
     </nav>
-    <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-outline-secondary" type="button">Search</button>
-        <button class="btn btn-outline-secondary" type="button">I'm Feeling Lucky</button>
-    </div>
 
-
-
-    <footer class="footer bg-light py-3 mt-auto">
-        <div class="container">
-            <span class="text-muted">
-                <span>
-                    Advertising
-                    Business
-                    How Search Works
-                </span>
-                <span>
-                    Privacy
-                    Term
-                    Settings
-                </span>
-
+    <section id="searchButtons">
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-outline-secondary" type="button">Search</button>
+            <button class="btn btn-outline-secondary" type="button">I'm Feeling Lucky</button>
         </div>
-    </footer>
+    </section>
+
+
+    <section id="last">
+        <footer id="footer1" class="footer bg-light py-3 mt-auto">
+            <div class="container">
+                <span class="text-muted">
+                    <span>
+                        Advertising
+                        Business
+                        How Search Works
+                    </span>
+                    <span>
+                        Privacy
+                        Term
+                        Settings
+                    </span>
+
+            </div>
+        </footer>
+    </section>
 </body>
 
 </html>
