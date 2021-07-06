@@ -25,13 +25,12 @@
 
 #last {
     display: flex;
-    flex-grow: 4rem;
     bottom: 0;
     position: absolute;
-      
+    width: 1100px;
+    /* flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end; */
 }
 
-.footer1{
-    display: flex;
-    flex-grow: 4rem;
-}
+
